@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event Handling Demo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Event Handling Examples</h1>
+
+  <!-- Click Event -->
+  <button id="btn">Click Me!</button>
+  <p id="message"></p>
+
+  <!-- Mouseover / Mouseout -->
+  <div id="box"></div>
+
+  <!-- Keyboard Input -->
+  <input id="nameInput" placeholder="Type your name">
+  <p id="greeting"></p>
+
+  <!-- Toggle Show/Hide -->
+  <button id="toggleBtn">Toggle Box</button>
+  <div id="secretBox" class="hidden">I’m here! 😎</div>
+
+    <!--Light/Dark Mode -->
+  <button id="themeBtn">Toggle Light/Dark Mode</button>
+
+  <!-- Counter Game -->
+  <div id="counterSection">
+    <h2>Counter Game</h2>
+    <button id="counterBtn">Click Me!</button>
+    <p>Score: <span id="score">0</span></p>
+  </div>
+
+    <!--Registration Form -->
+  <div id="formSection">
+    <h2>Registration Form</h2>
+    <form id="registrationForm" novalidate>
+      <div class="form-group">
+        <label for="fullName">Full Name:</label>
+        <input type="text" id="fullName" placeholder="Enter your full name">
+        <small class="error"></small>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Enter your email">
+        <small class="error"></small>
+      </div>
+
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" placeholder="Enter your password">
+        <small class="error"></small>
+      </div>
+
+      <button type="submit">Register</button>
+      <p id="formMessage"></p>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
